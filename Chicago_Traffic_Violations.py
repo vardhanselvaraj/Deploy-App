@@ -26,7 +26,8 @@ df1['violation_date'] = df1.index
 df2 = df[['INTERSECTION','VIOLATION DATE','VIOLATIONS']].groupby(['VIOLATION DATE','INTERSECTION']).count().reset_index()
 df2.index = df2['VIOLATION DATE']
 
-app = dash.Dash(external_stylesheets = [dbc.themes.YETI])
+app = dash.Dash(external_stylesheets = [dbc.themes.YETI] )
+server = app.server
 app.title = 'Traffic App'
 
 navbar = dbc.Nav(className="nav vardhan",
