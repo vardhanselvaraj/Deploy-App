@@ -80,7 +80,7 @@ nbconvert==5.6.1
 
 nbformat==5.0.7
 notebook==6.0.3
-numpy @ file:///opt/concourse/worker/volumes/live/40d975a3-7e82-44c8-53df-feccdbce8b96/volume/numpy_and_numpy_base_1596233859108/work
+
 olefile==0.46
 packaging==20.4
 pandas @ file:///opt/concourse/worker/volumes/live/38d1301c-8fa9-4d2f-662e-34dddf33b183/volume/pandas_1592841668171/work
