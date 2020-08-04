@@ -45,7 +45,7 @@ geographiclib==1.50
 
 
 
-
+gunicorn==19.0.0
 glob2==0.7
 
 
