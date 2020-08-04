@@ -111,24 +111,24 @@ QtPy==1.9.0
 
 retrying==1.3.3
 ruamel-yaml==0.15.87
-scikit-learn @ file:///opt/concourse/worker/volumes/live/eab838ab-55a5-40d0-5cbd-f1854d35aa9d/volume/scikit-learn_1592503039331/work
-scipy @ file:///opt/concourse/worker/volumes/live/14622691-c324-4e90-5a99-87aced91207b/volume/scipy_1592930535761/work
+
+
 seaborn==0.10.1
 Send2Trash==1.5.0
 Shapely==1.7.0
 simpervisor==0.3
 six==1.15.0
-smmap @ file:///home/conda/feedstock_root/build_artifacts/smmap_1588651577140/work
+
 soupsieve==2.0.1
 terminado==0.8.3
 testpath==0.4.4
-threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
+
 tornado==6.0.4
-tqdm @ file:///tmp/build/80754af9/tqdm_1593446365756/work
+
 traitlets==4.3.3
 typing-extensions==3.7.4.2
 urllib3==1.25.9
-wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+
 webencodings==0.5.1
 Werkzeug==1.0.1
 xmltodict==0.12.0
