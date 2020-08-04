@@ -42,7 +42,7 @@ Flask-Compress==1.5.0
 folium==0.11.0
 future==0.18.2
 geographiclib==1.50
-geopandas==0.8.1
+
 
 gitdb @ file:///home/conda/feedstock_root/build_artifacts/gitdb_1588651542737/work
 GitPython @ file:///home/conda/feedstock_root/build_artifacts/gitpython_1590897464411/work
