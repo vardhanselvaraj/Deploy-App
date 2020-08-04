@@ -126,4 +126,4 @@ def update_output_1(start_date, end_date):
     }
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(port = 4030)
