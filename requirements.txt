@@ -44,7 +44,7 @@ future==0.18.2
 geographiclib==1.50
 
 
-gitdb @ file:///home/conda/feedstock_root/build_artifacts/gitdb_1588651542737/work
+
 GitPython @ file:///home/conda/feedstock_root/build_artifacts/gitpython_1590897464411/work
 glob2==0.7
 idna @ file:///tmp/build/80754af9/idna_1593446292537/work
