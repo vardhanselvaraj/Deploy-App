@@ -23,8 +23,8 @@ cligj==0.5.0
 colorama==0.4.3
 
 
-conda-package-handling==1.7.0
-conda-verify==3.4.2
+
+
 cryptography==2.9.2
 cycler==0.10.0
 dash==1.4.1
