@@ -57,7 +57,7 @@ app.layout = dbc.Container(fluid = True, children=[
             html.Br(),
             dbc.Tabs(className="nav vardhan",children=[
                 dbc.Tab(dcc.Graph(id = "first_graph"),label = "Total Violations per day"),
-                dbc.Tab(dcc.Graph(id = 'second_chart'),label = "Intersection Causing the Most Violations")
+                dbc.Tab(dcc.Graph(id = 'second_chart'),label = "Intersections Causing the Most Violations")
             ])
         ])
     ])
@@ -112,13 +112,13 @@ def update_output_1(start_date, end_date):
     bar_chart = go.Bar(x = updated_df['INTERSECTION'].head(),
                        y = updated_df['VIOLATIONS'].head(),
                        marker_color = '#d4af4a',
-                       width = 0.3 ,
+                       width = 0.4 ,
                        text = 'No. Of Violations')
 
     data2.append(bar_chart)
     layout = dict(title = 'Intersections with Maximum Violations',
-                  showlegend = False,
-                  font=dict(family='Avenir', size=15, color='black')
+                  showlegend = False
+                  # font=dict(family='Avenir', size=15, color='black')
                   )
     return{
         'data': data2,
