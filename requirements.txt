@@ -9,7 +9,7 @@ backports.functools-lru-cache==1.6.1
 backports.tempfile==1.0
 backports.weakref==1.0.post1
 beautifulsoup4==4.9.1
-bleach==3.1.5
+bleach==3.3.0
 branca==0.4.1
 Brotli==1.0.7
 brotlipy==0.7.0
